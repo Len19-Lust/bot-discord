@@ -5,11 +5,13 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "discord.js": "^14.13.0",
-    "tesseract.js": "^4.0.3",
-    "dotenv": "^16.3.1",
-    "node-fetch": "^3.3.2"
+  "engines": {
+    "node": ">=18.x"
   },
-  "type": "module"
+  "dependencies": {
+    "discord.js": "^14.19.2",
+    "tesseract.js": "^6.0.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.1"
+  },
 }
